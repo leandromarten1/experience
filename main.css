@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.left {
+    height: 300vh;
+    background-color: red;
+    width: 100%;
+}
+
+.right {
+    height: 300vh;
+    width: 100%;
+    background-color: blue;
+}
